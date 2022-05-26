@@ -3,7 +3,7 @@ import argparse
 from PIL import Image
 from mazelib import Maze
 from mazelib.generate.Prims import Prims
-logger = SLogger()
+logger = SLogger(__name__)
 args = argparse.ArgumentParser()
 args.add_argument("-w", "--w", type=int, default=0)
 args.add_argument("-d", "--hi", type=int, default=0)
