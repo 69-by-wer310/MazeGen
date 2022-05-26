@@ -1,3 +1,4 @@
 mazelib
+super-logger
 Pillow
 
